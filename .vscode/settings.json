@@ -1,0 +1,22 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPath": "/home/mark/Documents/espressif-idf/esp-idf",
+    "idf.pythonInstallPath": "/usr/bin/python",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-builtin.cfg"
+    ],
+    "idf.port": "/dev/ttyACM0",
+    "idf.toolsPath": "/home/mark/.espressif",
+    "idf.flashType": "UART",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "/home/mark/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/share/openocd/scripts",
+        "ESP_ROM_ELF_DIR": "/home/mark/.espressif/tools/esp-rom-elfs/20230320/",
+        "IDF_TARGET": "esp32c3"
+    },
+    "files.associations": {
+        "esp_lcd_panel_ssd1306.h": "c",
+        "ssd1306.h": "c",
+        "ledc.h": "c",
+        "esp_lcd_panel_interface.h": "c"
+    }
+}
